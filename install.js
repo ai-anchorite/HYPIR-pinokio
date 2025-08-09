@@ -38,6 +38,7 @@ module.exports = {
     {
       method: "hf.download",
       params: {
+        venv: "env",  
         path: "app",
         "_": [ "lxq007/HYPIR" ],
         "exclude": '".gitattributes" "*.md"',
