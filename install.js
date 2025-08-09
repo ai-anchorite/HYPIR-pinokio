@@ -33,16 +33,6 @@ module.exports = {
           "uv pip install -r requirements.txt"
         ]
       }
-    },
-    
-    {
-      method: "hf.download",
-      params: {
-        path: "app",
-        "_": [ "lxq007/HYPIR" ],
-        "exclude": '".gitattributes" "*.md"',
-        "local-dir": "models",
-      }
-    },
+    }
   ]
 }
